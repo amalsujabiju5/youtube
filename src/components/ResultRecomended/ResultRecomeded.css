@@ -1,0 +1,32 @@
+.recommended {
+  flex: 1;
+  /* Adjust flex property as needed */
+  margin-left: 20px; /* Add some margin for spacing */
+}
+
+.sidevideo-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.sidevideo-list img {
+  flex-basis: 75%;
+  width: 50%;
+}
+
+.video-info {
+  flex-basis: 49%;
+}
+.video-info h4 {
+  color: #c9c2c2;
+  font-size: 14px;
+  margin-left: 10px;
+  width: 250%;
+}
+
+.video-info p {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
